@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Equipment</title>
+    <link href="/static/STYLES.css" rel="stylesheet"> 
+  </head>
+
+  <body>
+    <h1>Search for {{ id }}</h1>
+    {% if descriptor != False %}
+    <p>{{ descriptor }}</p>
+    {% else %}
+    <p>Record not found.</p>
+    {% endif %}
+  </body>
+</html>
